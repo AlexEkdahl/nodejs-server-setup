@@ -31,3 +31,23 @@ npm run dev
 ```
 npm run start
 ```
+
+## Folder structure
+```
+root/
+├─ node_modules/
+├─ server/
+│  ├─ api/
+│  │  ├─ routes/
+│  │  │  ├─ users.routes.js
+│  │  ├─ users/
+│  │  │  ├─ users.controller.js
+│  │  ├─ dao/
+│  │  │  ├─ users.DAO.js
+│  ├─ config/
+│  │  ├─ server.js
+│  ├─ validation/
+│  │  ├─ userValidation.js
+├─ index.js
+├─ package.json
+├─ .gitignore
